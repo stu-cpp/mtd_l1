@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+    branches: main
+  pull_request:
+    branches: main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Check SSH key fingerprint
+        run: [ "$(ssh-keygen -l -f ssh_keys/id_ed25519.pub | awk '{print $2}')" = "$(head -1 ssh_keys/id_ed25519_fingerprint.txt)" ]
+
