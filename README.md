@@ -26,9 +26,9 @@ modern technologies in development, Lab1
 
 В этом задании работаем с файлом `src/task3.c`
 
-1. Сделайте ветку `refactor/rename_a` из ветки `develop` и в ней переименуйте переменную `a`, дав ей любое другое имя. Откройте Pull Request в ветку `develop`, но не вливайте изменения
+1. Сделайте ветку `refactor/rename_b` из ветки `develop` и в ней переименуйте переменную `b`, дав ей любое другое имя. Откройте Pull Request в ветку `develop`, но не вливайте изменения
 1. Сделайте другую ветку из ветки `develop` (`refactor/a_type`), где измените тип переменной `a` с `int` на `unsigned int`. Также откройте Pull Request и влейте `refactor/a_type` в `develop`
-1. Влейте ветку `develop` в ветку `refactor/rename_a`, не открывая Pull Request (просто у себя через терминал), сделайте push
+1. Влейте ветку `develop` в ветку `refactor/rename_b`, не открывая Pull Request (просто у себя, скажем, через терминал), сделайте push
 1. Влейте оставшийся Pull Request в `develop`
 
 ---
@@ -55,3 +55,6 @@ SHA256:sN4RMshg5kpAQOWBUrvBVxtruF64cNstVe27R2Esy08
 Если commit'ы будут иметь значок `verified` (которого commit'ы, не сделанные через UI GitHub, лишены, если это не настроить специально), то надо будет переделать.
 
 ![screenshot verified commits](verified.png)
+
+Рекомендуется делать через консоль.
+По крайней мере, нужно знать синтаксис консольных команд, которые это делают.
