@@ -48,3 +48,10 @@ ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEaX+xKPVYv5ka587F2xLANMS9sELUIfKfSQJXY2X6eJ
 ```
 SHA256:sN4RMshg5kpAQOWBUrvBVxtruF64cNstVe27R2Esy08
 ```
+
+**Указание**
+
+Для операций с Git можно выбрать любые графические элементы или консоль, но нельзя интерфейс GitHub.
+Если commit'ы будут иметь значок `verified` (которого commit'ы, не сделанные через UI GitHub, лишены, если это не настроить специально), то надо будет переделать.
+
+![screenshot verified commits](verified.png)
